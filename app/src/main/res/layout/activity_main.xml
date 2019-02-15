@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:columnCount="2">
+
+   <TextView
+       android:id="@+id/tvName"
+       android:layout_width="100dp"
+       android:layout_height="wrap_content"
+       android:text="Input Name"/>
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/tvPassword"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Input Password"
+        />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/btLogin"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:onClick="onClick"
+        />
+
+    <Button
+        android:id="@+id/btSignUp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:onClick="onClick"
+        />
+
+</GridLayout>
